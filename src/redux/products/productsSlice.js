@@ -35,7 +35,6 @@ export const productsSlice = createSlice({
         (item) => item.id === parseInt(id)
       );
       state.selectedProductId = id;
-      console.log(state.singleProduct);
     },
   },
   extraReducers: (builder) => {
