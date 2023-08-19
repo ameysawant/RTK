@@ -10,9 +10,6 @@ const Filters = () => {
 
   const sendName = (id) => {
     dispatch(sendProductId({ id }));
-    // dispatch(fetchProducts())
-    //   .then(({ payload }) => dispatch(sendProductsData(payload)))
-    //   .catch((err) => console.log(err));
   };
 
   if (isLoading) {

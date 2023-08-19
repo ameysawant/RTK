@@ -37,9 +37,6 @@ export const productsSlice = createSlice({
       state.selectedProductId = id;
       console.log(state.singleProduct);
     },
-    // sendProductsData: (state, { payload }) => {
-    //   console.log(state.selectedProductId);
-    // },
   },
   extraReducers: (builder) => {
     builder
